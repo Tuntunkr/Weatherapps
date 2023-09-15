@@ -1,38 +1,165 @@
-.App {
+/*-- home-Page-Styling --*/
+
+body {
+  background: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-title{
+  margin-top: 8rem;
+  font-size: 1.2rem;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 200;
+  width: 20%;
+  height: 50px;
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 200;
+  border: none;
+  height: 65px;
+}
+
+.display {
+  text-align: center;
+  width: 400px;
+  color: #16a864;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 0px 19rem;
+}
+
+.wrapper {
+  background-color: white;
+  height: 45vh;
+  margin: 50px auto;
+  border-radius: 8px;
+}
+
+.wrapper h2 {
+  /* padding: 5px 0; */
+  text-align: center;
+  background: #0548b5;
   color: white;
+  font-family: sans-serif;
+}
+.wrapper p {
+  margin: 20px 50px;
+  margin-right: 20px;
+  text-align: left;
+  color: #04214c;
+  font-size: 23px;
+}
+.wrapper h2 span {
+  font-size: 26px;
+  color: #9beefb;
+}
+.wrapper p span {
+  color: #f4780d;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*-- Responsive Code --*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1920px) {
+  .display {
+    margin: auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1440px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 966px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 603px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 533px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .display {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .display {
+    margin: auto;
   }
 }
